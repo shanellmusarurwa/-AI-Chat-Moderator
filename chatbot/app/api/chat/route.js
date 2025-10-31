@@ -30,6 +30,21 @@ export async function POST(request) {
       );
     }
 
+    // FIX: Use environment variable correctly
+    const API_KEY = process.env.OPENROUTER_API_KEY;
+
+    // Check if API key exists
+    if (!API_KEY) {
+      console.error("OPENROUTER_API_KEY is not configured");
+      return NextResponse.json(
+        {
+          error:
+            "API key not configured. Please check your environment variables.",
+        },
+        { status: 500 }
+      );
+    }
+
     console.log("Calling OpenRouter API...");
 
     const response = await fetch(
