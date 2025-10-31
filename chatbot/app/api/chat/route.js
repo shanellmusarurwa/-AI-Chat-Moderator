@@ -30,10 +30,6 @@ export async function POST(request) {
       );
     }
 
-    // HARDCODE the API key for now to test
-    const API_KEY =
-      "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";
-
     console.log("Calling OpenRouter API...");
 
     const response = await fetch(
