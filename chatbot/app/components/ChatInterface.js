@@ -186,7 +186,7 @@ export default function ChatInterface() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Type your message here... (Try words like 'hack', 'attack' to see moderation)"
-              className="w-full px-4 text-color-black py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+              className="w-full px-4 text-black py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
               disabled={isLoading}
             />
           </div>

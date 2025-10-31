@@ -16,7 +16,7 @@ export default function Home() {
               with real-time content moderation.
             </p>
             <div className="mt-4 text-sm text-gray-500">
-              <p>Powered by Gemini 2.0 Flash • OpenRouter • Fast • Efficient</p>
+              <p>Powered by OpenRouter • Gemini 2.0 Flash • Fast • Efficient</p>
             </div>
           </header>
 
@@ -25,7 +25,7 @@ export default function Home() {
           <footer className="mt-12 text-center text-gray-500 text-sm">
             <p>Built with Next.js + Tailwind CSS + OpenRouter API</p>
             <p className="mt-2">
-              Using Gemini 2.0 Flash for optimal performance
+              Using Gemini 2.0 Flash via OpenRouter for optimal performance
             </p>
           </footer>
         </div>
